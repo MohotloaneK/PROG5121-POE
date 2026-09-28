@@ -72,6 +72,17 @@ public class Login {
     }
 
     // Check South African cellphone number
+	/*
+ * The regular expression is used to validate that the cellphone
+ * number starts with the South African international country code
+ * (+27), followed by nine digits.
+ *
+ * Reference:
+ * Oracle. n.d. Lesson: Regular Expressions.
+ * Available at:
+ * https://docs.oracle.com/javase/tutorial/essential/regex/
+ */
+	
     public boolean checkCellPhoneNumber() {
 
         if (cellPhoneNumber == null) {
