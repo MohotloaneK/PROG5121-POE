@@ -8,6 +8,13 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
+ * Unit tests for the Login class.
+ *
+ * Tests verify username formatting, password complexity,
+ * cellphone number validation, successful and failed login,
+ * and the expected system response messages.
+ *
+ * Test data is based on the Part 1 POE requirements.
  *
  * @author Mohotloanek
  */
